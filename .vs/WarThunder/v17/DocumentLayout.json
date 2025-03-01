@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My folder\\University\\University Final\\\u041F\u041F\u041F\u0418\\Prog\\WarThunder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8824088-33DF-44F5-9EB9-3A85C17F9BA6}|WarThunder.csproj|d:\\my folder\\university\\university final\\\u043F\u043F\u043F\u0438\\prog\\warthunder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8824088-33DF-44F5-9EB9-3A85C17F9BA6}|WarThunder.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 204,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My folder\\University\\University Final\\\u041F\u041F\u041F\u0418\\Prog\\WarThunder\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\My folder\\University\\University Final\\\u041F\u041F\u041F\u0418\\Prog\\WarThunder\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T15:39:56.4Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
