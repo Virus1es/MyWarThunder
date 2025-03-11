@@ -1,0 +1,157 @@
+:root {
+  --primary-color: #ff4d4d; /* Красный акцент */
+  --secondary-color: #33334d; /* Темнее секции */
+  --text-color: #ffffff;
+  --background-color: #222233; /* Чуть светлее фон */
+  --shadow-color: rgba(0, 0, 0, 0.6); /* Более темная тень */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7; /* Увеличено междустрочное расстояние */
+  color: var(--text-color);
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+
+/* Шапка */
+header {
+  position: fixed;
+  top: 0;
+  left: 0; /* Растягиваем шапку на всю ширину */
+  width: 100%;
+  z-index: 1000;
+  background-color: rgba(34, 34, 51, 0.9); /* Более насыщенный фон шапки */
+  backdrop-filter: blur(10px);
+  color: var(--text-color);
+  padding: 15px 20px;
+  border-bottom: 2px solid var(--primary-color); /* Подчеркиваем шапку */
+  box-shadow: 0 2px 10px var(--shadow-color); /* Тень шапки */
+  display: flex;
+  justify-content: space-between; /* Распределяем элементы по краям */
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem; /* Уменьшили размер заголовка */
+  font-weight: 500; /* Сделали заголовок тоньше */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Навигация справа */
+  align-items: center;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 400; /* Сделали ссылки менее жирными */
+  transition: color 0.3s ease, transform 0.3s ease; /* Добавили анимацию */
+  padding: 8px 15px; /* Увеличили область клика */
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: var(--primary-color);
+  transform: translateY(-2px); /* Небольшой подъем при наведении */
+}
+
+/* Секции */
+.section {
+  padding: 40px 25px;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  margin: 80px auto 30px; /* Увеличили верхний отступ */
+  box-shadow: 0 5px 25px var(--shadow-color); /* Усилили тень */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Добавили анимацию */
+  width: 92%;
+  max-width: 1100px; /* Слегка уменьшили макс. ширину */
+}
+
+.section:first-of-type {
+  margin-top: 150px; /* Адаптированный отступ для первой секции */
+}
+
+.section:hover {
+  box-shadow: 0 12px 40px var(--shadow-color); /* Более сильная тень при наведении */
+  transform: translateY(-5px); /* Подъем при наведении */
+}
+
+.section h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  font-size: 2.1rem; /* Слегка увеличили размер заголовка */
+  font-weight: 600; /* Сделали заголовок чуть более жирным */
+  text-shadow: 0 1px 3px var(--shadow-color); /* Тень для текста */
+}
+
+.section p {
+  font-size: 1.15rem; /* Слегка увеличили размер текста */
+  line-height: 1.9; /* Увеличили междустрочное расстояние */
+  color: #d0d0d0; /* Сделали текст чуть менее белым */
+}
+
+/* Список модулей */
+.module-list {
+  list-style-type: square; /* Изменили стиль списка */
+  padding-left: 25px;
+}
+
+.module-list li {
+  margin-bottom: 12px; /* Увеличили отступ */
+  font-size: 1.1rem;
+  color: #d0d0d0; /* Сделали текст чуть менее белым */
+}
+
+/* Список лабораторных */
+.lab-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lab-list li {
+  margin-bottom: 10px;
+}
+
+.lab-list li a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 1px 2px var(--shadow-color); /* Тень для ссылок */
+}
+
+.container a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.1rem; /* Подстройте размер по необходимости */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 1px 2px var(--shadow-color); /* Тень для ссылок */
+}
+
+.lab-list li a:hover {
+  text-decoration: underline;
+  text-shadow: 0 1px 5px var(--shadow-color); /* Более сильная тень при наведении */
+}
+
+/* Подвал */
+footer {
+  background-color: var(--background-color);
+  color: #bdbdbd; /* Сделали текст менее белым */
+  text-align: center;
+  padding: 25px 0; /* Увеличили отступ */
+  border-top: 1px solid #444; /* Добавили разделитель */
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem; /* Слегка уменьшили размер текста */
+}
